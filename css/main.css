@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+}
+
+div#pasto {
+  /*border: 1px solid black;*/
+  background-color: green;
+  height: 250px;
+  width: 500px;
+  left: 30%;
+  position: relative;
+}
+div#cancha {
+  border: 3px solid white;
+  height: 200px;
+  width:  450px;
+  left: 25px;
+  top: 25px;
+  position: absolute;
+}
+
+
+#circulo_centro{
+  border: 2px solid white;
+  border-radius: 80%;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+.porteria{
+  border: 2px solid white;
+  height: 100px;
+  position: absolute;
+  width: 50px;
+  top: 25%;
+}
+#porteria_dere{
+  left: 88%;
+  border-right: none;
+}
+#porteria_izq{
+  border-left: none;
+}
+.balones{
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 40%;
+  height: 8px;
+  width: 8px;
+}
+#balon_izq {
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+#balon_dere {
+  position: absolute;
+  bottom:25%;
+  left: 85%;
+}
+#balon_centro {
+  position: absolute;
+  left:49%;
+  top: 12%;
+}
